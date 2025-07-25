@@ -6,5 +6,6 @@ RUN apt -y update && \
     apt clean && rm -rf /var/lib/apt/lists/*
 COPY squid.conf /etc/squid/squid.conf
 COPY domaine_bloque.txt /etc/squid/domaine_bloque.txt
+COPY ERR_ACCESS_DENIED.html /usr/share/squid/errors/English/ERR_ACCESS_DENIED
 EXPOSE 3128
 CMD [ "squid","-N","-d","1" ]
