@@ -1,0 +1,11 @@
+.google.com
+.wikipedia.org
+.stackoverflow.com
+.github.com
+.debian.org
+.ubuntu.com
+.mozilla.org
+.gnu.org
+.microsoft.com
+.openai.com
+.youtube.com
