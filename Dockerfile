@@ -14,4 +14,5 @@ COPY intialisation.sh /intialisation.sh
 RUN chmod +x /intialisation.sh
 EXPOSE 3128
 RUN htpasswd -cb /etc/squid/passwd utilisateur2 motdepasse2
+RUN htpasswd -cb /etc/squid/passwd oussama oussama
 ENTRYPOINT ["/intialisation.sh"]
